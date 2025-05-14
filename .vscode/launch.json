@@ -11,9 +11,9 @@
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
-            //"openOCDPreConfigLaunchCommands": [
-            //    "set CPUTAPID 0x2ba01477"
-            //],
+            "openOCDPreConfigLaunchCommands": [
+              "set CPUTAPID 0x2ba01477"
+            ],
             "device": "STM32F103C8T6",            
             "configFiles": [
                 "interface/stlink.cfg",
