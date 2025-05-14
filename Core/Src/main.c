@@ -116,7 +116,17 @@ int main(void)
   }
   
   //LED2 - PISCANDO BOTOES
-  for(i=0; i<100; i++){
+  int botao1 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0);
+  int botao2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1);
+
+  if(botao1 == 0 ){ //0 == pessionado
+    htim3.Instance->CCR2 = htim3.Instance->ARR; //BRILHO MAX
+  }else{
+    htim3.Instance->CCR2 =0; //apaga
+  }
+
+  /*
+    for(i=0; i<100; i++){
     htim3.Instance->CCR2 = (htim3.Instance->ARR*i)/100;
     HAL_Delay(5);
   }
@@ -125,6 +135,9 @@ int main(void)
     htim3.Instance->CCR2 = (htim3.Instance->ARR*i)/100;
     HAL_Delay(5);
   }
+  
+  */
+
   /* USER CODE END 3 */
 }
 }
