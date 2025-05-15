@@ -88,14 +88,14 @@ int main(void)
   MX_GPIO_Init();
 
   MX_TIM3_Init();
-  
-  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
-  
-  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
+
   /* USER CODE BEGIN 2 */
-
+    
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
+  int counter = 0;
   /* USER CODE END 2 */
-
+  
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -105,38 +105,41 @@ int main(void)
   /* USER CODE END WHILE */
   
   //LED1 - PISCANDO DIRETO
-  for(i=0; i<100; i++){
+  for(i=0; i<100; i+=5){
     htim3.Instance->CCR1 = (htim3.Instance->ARR*i)/100;
-    HAL_Delay(10);
+    HAL_Delay(5);
   }
   
-  for(i=100; i > 0; i--){
+  for(i=100; i > 0; i-=5){
     htim3.Instance->CCR1 = (htim3.Instance->ARR*i)/100;
-    HAL_Delay(10);
+    HAL_Delay(5);
   }
   
   //LED2 - PISCANDO BOTOES
+  static int lastBotao1 = 1;
+  static int lastBotao2 = 1;
+
   int botao1 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0);
   int botao2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1);
 
-  if(botao1 == 0 ){ //0 == pessionado
-    htim3.Instance->CCR2 = htim3.Instance->ARR; //BRILHO MAX
-  }else{
-    htim3.Instance->CCR2 =0; //apaga
+  //debounce botao1
+  if (botao1 == 0 && lastBotao1 == 1) { //apertar botao
+      counter += 10;
+      if (counter > 100) counter = 100;  //limita counter
+      HAL_Delay(50);  //delay debounce
   }
+  lastBotao1 = botao1;
 
-  /*
-    for(i=0; i<100; i++){
-    htim3.Instance->CCR2 = (htim3.Instance->ARR*i)/100;
-    HAL_Delay(5);
+  //debounce botao1
+  if (botao2 == 0 && lastBotao2 == 1) {
+      counter -= 10;
+      if (counter < 0) counter = 0;      
+      HAL_Delay(50); 
   }
-  
-  for(i=100; i > 0; i--){
-    htim3.Instance->CCR2 = (htim3.Instance->ARR*i)/100;
-    HAL_Delay(5);
-  }
-  
-  */
+  lastBotao2 = botao2;
+
+  htim3.Instance->CCR2 = (htim3.Instance->ARR * counter) / 100;
+
 
   /* USER CODE END 3 */
 }
