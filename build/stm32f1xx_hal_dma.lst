@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccMg7Kr2.s 			page 1
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -17,15 +17,15 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              		.file 1 "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
-  18              		.section	.text.HAL_DMA_Init,"ax",%progbits
-  19              		.align	1
-  20              		.global	HAL_DMA_Init
-  21              		.syntax unified
-  22              		.thumb
-  23              		.thumb_func
-  25              	HAL_DMA_Init:
-  26              	.LFB65:
+  17              		.section	.text.HAL_DMA_Init,"ax",%progbits
+  18              		.align	1
+  19              		.global	HAL_DMA_Init
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  24              	HAL_DMA_Init:
+  25              	.LFB65:
+  26              		.file 1 "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
    1:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** /**
    2:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   ******************************************************************************
    3:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @file    stm32f1xx_hal_dma.c
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****                    
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****      -@-   In Memory-to-Memory transfer mode, Circular mode is not allowed.
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****      *** Polling mode IO operation ***
-ARM GAS  /tmp/ccMg7Kr2.s 			page 2
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 2
 
 
   33:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****      =================================
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** /** @addtogroup STM32F1xx_HAL_Driver
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @{
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   */
-ARM GAS  /tmp/ccMg7Kr2.s 			page 3
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 3
 
 
   90:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** {
   27              		.loc 1 144 1
   28              		.cfi_startproc
-ARM GAS  /tmp/ccMg7Kr2.s 			page 4
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 4
 
 
   29              		@ args = 0, pretend = 0, frame = 16
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  174:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA2_Channel1) / ((uint32_t)DMA2_Ch
  175:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     hdma->DmaBaseAddress = DMA2;
  176:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
-ARM GAS  /tmp/ccMg7Kr2.s 			page 5
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 5
 
 
  177:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** #else
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  195:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   tmp |=  hdma->Init.Direction        |
   90              		.loc 1 195 21
   91 0050 7B68     		ldr	r3, [r7, #4]
-ARM GAS  /tmp/ccMg7Kr2.s 			page 6
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 6
 
 
   92 0052 5A68     		ldr	r2, [r3, #4]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  133              		.loc 1 204 19
  134 0086 7B68     		ldr	r3, [r7, #4]
  135 0088 0022     		movs	r2, #0
-ARM GAS  /tmp/ccMg7Kr2.s 			page 7
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 7
 
 
  136 008a 9A63     		str	r2, [r3, #56]
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  217:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   *               the configuration information for the specified DMA Channel.
  218:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @retval HAL status
  219:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   */
-ARM GAS  /tmp/ccMg7Kr2.s 			page 8
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 8
 
 
  220:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** HAL_StatusTypeDef HAL_DMA_DeInit(DMA_HandleTypeDef *hdma)
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  236:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  237:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Reset DMA Channel Number of Data to Transfer register */
  238:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   hdma->Instance->CNDTR = 0U;
-ARM GAS  /tmp/ccMg7Kr2.s 			page 9
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 9
 
 
  218              		.loc 1 238 7
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  248              		.loc 1 262 133
  249 0054 9A00     		lsls	r2, r3, #2
  250              		.loc 1 262 22
-ARM GAS  /tmp/ccMg7Kr2.s 			page 10
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 10
 
 
  251 0056 7B68     		ldr	r3, [r7, #4]
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  288              		.loc 1 279 15
  289 008e 7B68     		ldr	r3, [r7, #4]
  290 0090 0022     		movs	r2, #0
-ARM GAS  /tmp/ccMg7Kr2.s 			page 11
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 11
 
 
  291 0092 83F82120 		strb	r2, [r3, #33]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  296:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****                       #####  IO operation functions  #####
  297:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****  ===============================================================================
  298:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     [..]  This section provides functions allowing to:
-ARM GAS  /tmp/ccMg7Kr2.s 			page 12
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 12
 
 
  299:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       (+) Configure the source, destination address and data length and Start DMA transfer
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  356 0018 012B     		cmp	r3, #1
  357 001a 01D1     		bne	.L12
  358              		.loc 1 327 3 is_stmt 0 discriminator 1
-ARM GAS  /tmp/ccMg7Kr2.s 			page 13
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 13
 
 
  359 001c 0223     		movs	r3, #2
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  398 0062 FB68     		ldr	r3, [r7, #12]
  399 0064 1B68     		ldr	r3, [r3]
  400 0066 42F00102 		orr	r2, r2, #1
-ARM GAS  /tmp/ccMg7Kr2.s 			page 14
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 14
 
 
  401 006a 1A60     		str	r2, [r3]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  363:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** {
  437              		.loc 1 363 1
  438              		.cfi_startproc
-ARM GAS  /tmp/ccMg7Kr2.s 			page 15
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 15
 
 
  439              		@ args = 0, pretend = 0, frame = 24
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  481 0036 83F82120 		strb	r2, [r3, #33]
  376:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     hdma->ErrorCode = HAL_DMA_ERROR_NONE;
  482              		.loc 1 376 21
-ARM GAS  /tmp/ccMg7Kr2.s 			page 16
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 16
 
 
  483 003a FB68     		ldr	r3, [r7, #12]
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  520 007c FB68     		ldr	r3, [r7, #12]
  521 007e 1B68     		ldr	r3, [r3]
  522 0080 22F00402 		bic	r2, r2, #4
-ARM GAS  /tmp/ccMg7Kr2.s 			page 17
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 17
 
 
  523 0084 1A60     		str	r2, [r3]
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  562              		@ sp needed
  563 00bc 80BD     		pop	{r7, pc}
  564              		.cfi_endproc
-ARM GAS  /tmp/ccMg7Kr2.s 			page 18
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 18
 
 
  565              	.LFE68:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  425:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Process Unlocked */
  426:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
  605              		.loc 1 426 5
-ARM GAS  /tmp/ccMg7Kr2.s 			page 19
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 19
 
 
  606 001c 7B68     		ldr	r3, [r7, #4]
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  643 005c 83F82120 		strb	r2, [r3, #33]
  444:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  445:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Process Unlocked */
-ARM GAS  /tmp/ccMg7Kr2.s 			page 20
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 20
 
 
  446:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   __HAL_UNLOCK(hdma);      
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  687              	.LCFI29:
  688              		.cfi_def_cfa_offset 24
  689 0004 00AF     		add	r7, sp, #0
-ARM GAS  /tmp/ccMg7Kr2.s 			page 21
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 21
 
 
  690              	.LCFI30:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  476:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Clear all flags */
  477:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     __HAL_DMA_CLEAR_FLAG(hdma, __HAL_DMA_GET_GI_FLAG_INDEX(hdma));
  727              		.loc 1 477 5
-ARM GAS  /tmp/ccMg7Kr2.s 			page 22
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 22
 
 
  728 0042 7B68     		ldr	r3, [r7, #4]
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  782              	.L30:
  783              		.loc 1 477 5 discriminator 4
  784 009c 1023     		movs	r3, #16
-ARM GAS  /tmp/ccMg7Kr2.s 			page 23
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 23
 
 
  785 009e 00E0     		b	.L40
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  824              		.cfi_def_cfa_register 13
  825              		@ sp needed
  826 00ce 80BD     		pop	{r7, pc}
-ARM GAS  /tmp/ccMg7Kr2.s 			page 24
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 24
 
 
  827              	.L43:
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  506:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  507:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   if(HAL_DMA_STATE_BUSY != hdma->State)
  870              		.loc 1 507 32
-ARM GAS  /tmp/ccMg7Kr2.s 			page 25
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 25
 
 
  871 0010 FB68     		ldr	r3, [r7, #12]
@@ -1498,44 +1498,44 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  909 004a 31D1     		bne	.L48
  524:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  525:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Transfer Complete flag */
-ARM GAS  /tmp/ccMg7Kr2.s 			page 26
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 26
 
 
  526:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     temp = __HAL_DMA_GET_TC_FLAG_INDEX(hdma);
  910              		.loc 1 526 12
  911 004c FB68     		ldr	r3, [r7, #12]
  912 004e 1B68     		ldr	r3, [r3]
- 913 0050 884A     		ldr	r2, .L117
+ 913 0050 884A     		ldr	r2, .L116
  914 0052 9342     		cmp	r3, r2
  915 0054 29D0     		beq	.L49
  916              		.loc 1 526 12 is_stmt 0 discriminator 1
  917 0056 FB68     		ldr	r3, [r7, #12]
  918 0058 1B68     		ldr	r3, [r3]
- 919 005a 874A     		ldr	r2, .L117+4
+ 919 005a 874A     		ldr	r2, .L116+4
  920 005c 9342     		cmp	r3, r2
  921 005e 22D0     		beq	.L50
  922              		.loc 1 526 12 discriminator 3
  923 0060 FB68     		ldr	r3, [r7, #12]
  924 0062 1B68     		ldr	r3, [r3]
- 925 0064 854A     		ldr	r2, .L117+8
+ 925 0064 854A     		ldr	r2, .L116+8
  926 0066 9342     		cmp	r3, r2
  927 0068 1AD0     		beq	.L51
  928              		.loc 1 526 12 discriminator 5
  929 006a FB68     		ldr	r3, [r7, #12]
  930 006c 1B68     		ldr	r3, [r3]
- 931 006e 844A     		ldr	r2, .L117+12
+ 931 006e 844A     		ldr	r2, .L116+12
  932 0070 9342     		cmp	r3, r2
  933 0072 12D0     		beq	.L52
  934              		.loc 1 526 12 discriminator 7
  935 0074 FB68     		ldr	r3, [r7, #12]
  936 0076 1B68     		ldr	r3, [r3]
- 937 0078 824A     		ldr	r2, .L117+16
+ 937 0078 824A     		ldr	r2, .L116+16
  938 007a 9342     		cmp	r3, r2
  939 007c 0AD0     		beq	.L53
  940              		.loc 1 526 12 discriminator 9
  941 007e FB68     		ldr	r3, [r7, #12]
  942 0080 1B68     		ldr	r3, [r3]
- 943 0082 814A     		ldr	r2, .L117+20
+ 943 0082 814A     		ldr	r2, .L116+20
  944 0084 9342     		cmp	r3, r2
  945 0086 02D1     		bne	.L54
  946              		.loc 1 526 12 discriminator 11
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  963 00a0 4FF40073 		mov	r3, #512
  964 00a4 02E0     		b	.L60
  965              	.L50:
-ARM GAS  /tmp/ccMg7Kr2.s 			page 27
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 27
 
 
  966              		.loc 1 526 12 discriminator 4
@@ -1580,37 +1580,37 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  977              		.loc 1 531 12
  978 00b0 FB68     		ldr	r3, [r7, #12]
  979 00b2 1B68     		ldr	r3, [r3]
- 980 00b4 6F4A     		ldr	r2, .L117
+ 980 00b4 6F4A     		ldr	r2, .L116
  981 00b6 9342     		cmp	r3, r2
  982 00b8 29D0     		beq	.L62
  983              		.loc 1 531 12 is_stmt 0 discriminator 1
  984 00ba FB68     		ldr	r3, [r7, #12]
  985 00bc 1B68     		ldr	r3, [r3]
- 986 00be 6E4A     		ldr	r2, .L117+4
+ 986 00be 6E4A     		ldr	r2, .L116+4
  987 00c0 9342     		cmp	r3, r2
  988 00c2 22D0     		beq	.L63
  989              		.loc 1 531 12 discriminator 3
  990 00c4 FB68     		ldr	r3, [r7, #12]
  991 00c6 1B68     		ldr	r3, [r3]
- 992 00c8 6C4A     		ldr	r2, .L117+8
+ 992 00c8 6C4A     		ldr	r2, .L116+8
  993 00ca 9342     		cmp	r3, r2
  994 00cc 1AD0     		beq	.L64
  995              		.loc 1 531 12 discriminator 5
  996 00ce FB68     		ldr	r3, [r7, #12]
  997 00d0 1B68     		ldr	r3, [r3]
- 998 00d2 6B4A     		ldr	r2, .L117+12
+ 998 00d2 6B4A     		ldr	r2, .L116+12
  999 00d4 9342     		cmp	r3, r2
  1000 00d6 12D0     		beq	.L65
  1001              		.loc 1 531 12 discriminator 7
  1002 00d8 FB68     		ldr	r3, [r7, #12]
  1003 00da 1B68     		ldr	r3, [r3]
- 1004 00dc 694A     		ldr	r2, .L117+16
+ 1004 00dc 694A     		ldr	r2, .L116+16
  1005 00de 9342     		cmp	r3, r2
  1006 00e0 0AD0     		beq	.L66
  1007              		.loc 1 531 12 discriminator 9
  1008 00e2 FB68     		ldr	r3, [r7, #12]
  1009 00e4 1B68     		ldr	r3, [r3]
- 1010 00e6 684A     		ldr	r2, .L117+20
+ 1010 00e6 684A     		ldr	r2, .L116+20
  1011 00e8 9342     		cmp	r3, r2
  1012 00ea 02D1     		bne	.L67
  1013              		.loc 1 531 12 discriminator 11
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1015 00f0 0EE0     		b	.L73
  1016              	.L67:
  1017              		.loc 1 531 12 discriminator 12
-ARM GAS  /tmp/ccMg7Kr2.s 			page 28
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 28
 
 
  1018 00f2 4FF08063 		mov	r3, #67108864
@@ -1656,29 +1656,29 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  536:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  537:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   while(__HAL_DMA_GET_FLAG(hdma, temp) == RESET)
  1046              		.loc 1 537 8
- 1047 0118 6BE0     		b	.L88
- 1048              	.L90:
+ 1047 0118 6BE0     		b	.L74
+ 1048              	.L89:
  538:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  539:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     if((__HAL_DMA_GET_FLAG(hdma, __HAL_DMA_GET_TE_FLAG_INDEX(hdma)) != RESET))
  1049              		.loc 1 539 9
- 1050 011a 5C4B     		ldr	r3, .L117+24
+ 1050 011a 5C4B     		ldr	r3, .L116+24
  1051 011c 1A68     		ldr	r2, [r3]
  1052 011e FB68     		ldr	r3, [r7, #12]
  1053 0120 1B68     		ldr	r3, [r3]
- 1054 0122 5449     		ldr	r1, .L117
+ 1054 0122 5449     		ldr	r1, .L116
  1055 0124 8B42     		cmp	r3, r1
  1056 0126 29D0     		beq	.L75
  1057              		.loc 1 539 9 is_stmt 0 discriminator 1
  1058 0128 FB68     		ldr	r3, [r7, #12]
  1059 012a 1B68     		ldr	r3, [r3]
- 1060 012c 5249     		ldr	r1, .L117+4
+ 1060 012c 5249     		ldr	r1, .L116+4
  1061 012e 8B42     		cmp	r3, r1
  1062 0130 22D0     		beq	.L76
  1063              		.loc 1 539 9 discriminator 3
  1064 0132 FB68     		ldr	r3, [r7, #12]
  1065 0134 1B68     		ldr	r3, [r3]
- 1066 0136 5149     		ldr	r1, .L117+8
-ARM GAS  /tmp/ccMg7Kr2.s 			page 29
+ 1066 0136 5149     		ldr	r1, .L116+8
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 29
 
 
  1067 0138 8B42     		cmp	r3, r1
@@ -1686,19 +1686,19 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1069              		.loc 1 539 9 discriminator 5
  1070 013c FB68     		ldr	r3, [r7, #12]
  1071 013e 1B68     		ldr	r3, [r3]
- 1072 0140 4F49     		ldr	r1, .L117+12
+ 1072 0140 4F49     		ldr	r1, .L116+12
  1073 0142 8B42     		cmp	r3, r1
  1074 0144 12D0     		beq	.L78
  1075              		.loc 1 539 9 discriminator 7
  1076 0146 FB68     		ldr	r3, [r7, #12]
  1077 0148 1B68     		ldr	r3, [r3]
- 1078 014a 4E49     		ldr	r1, .L117+16
+ 1078 014a 4E49     		ldr	r1, .L116+16
  1079 014c 8B42     		cmp	r3, r1
  1080 014e 0AD0     		beq	.L79
  1081              		.loc 1 539 9 discriminator 9
  1082 0150 FB68     		ldr	r3, [r7, #12]
  1083 0152 1B68     		ldr	r3, [r3]
- 1084 0154 4C49     		ldr	r1, .L117+20
+ 1084 0154 4C49     		ldr	r1, .L116+20
  1085 0156 8B42     		cmp	r3, r1
  1086 0158 02D1     		bne	.L80
  1087              		.loc 1 539 9 discriminator 11
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  542:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* A hardware clear of its EN bits is performed */
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Clear all flags */
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->DmaBaseAddress->IFCR = (DMA_ISR_GIF1 << hdma->ChannelIndex);
-ARM GAS  /tmp/ccMg7Kr2.s 			page 30
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 30
 
 
  1119              		.loc 1 544 57
@@ -1787,18 +1787,18 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1148              		.loc 1 558 7
  1149 01b4 7B68     		ldr	r3, [r7, #4]
  1150 01b6 B3F1FF3F 		cmp	r3, #-1
- 1151 01ba 1AD0     		beq	.L88
+ 1151 01ba 1AD0     		beq	.L74
  559:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  560:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       if((Timeout == 0U) || ((HAL_GetTick() - tickstart) > Timeout))
  1152              		.loc 1 560 9
  1153 01bc 7B68     		ldr	r3, [r7, #4]
  1154 01be 002B     		cmp	r3, #0
- 1155 01c0 07D0     		beq	.L89
+ 1155 01c0 07D0     		beq	.L88
  1156              		.loc 1 560 31 discriminator 1
  1157 01c2 FFF7FEFF 		bl	HAL_GetTick
  1158 01c6 0246     		mov	r2, r0
  1159              		.loc 1 560 45 discriminator 1
-ARM GAS  /tmp/ccMg7Kr2.s 			page 31
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 31
 
 
  1160 01c8 3B69     		ldr	r3, [r7, #16]
@@ -1806,8 +1806,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1162              		.loc 1 560 26 discriminator 1
  1163 01cc 7A68     		ldr	r2, [r7, #4]
  1164 01ce 9A42     		cmp	r2, r3
- 1165 01d0 0FD2     		bcs	.L88
- 1166              	.L89:
+ 1165 01d0 0FD2     		bcs	.L74
+ 1166              	.L88:
  561:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       {
  562:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****         /* Update error code */
  563:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****         SET_BIT(hdma->ErrorCode, HAL_DMA_ERROR_TIMEOUT);
@@ -1836,17 +1836,17 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1181              		.loc 1 571 16
  1182 01ee 0123     		movs	r3, #1
  1183 01f0 85E0     		b	.L46
- 1184              	.L88:
+ 1184              	.L74:
  537:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  1185              		.loc 1 537 9
- 1186 01f2 264B     		ldr	r3, .L117+24
+ 1186 01f2 264B     		ldr	r3, .L116+24
  1187 01f4 1A68     		ldr	r2, [r3]
  1188 01f6 7B69     		ldr	r3, [r7, #20]
  1189 01f8 1340     		ands	r3, r3, r2
  537:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  1190              		.loc 1 537 40
  1191 01fa 002B     		cmp	r3, #0
- 1192 01fc 8DD0     		beq	.L90
+ 1192 01fc 8DD0     		beq	.L89
  572:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       }
  573:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  574:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
@@ -1855,81 +1855,81 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1193              		.loc 1 576 5
  1194 01fe BB68     		ldr	r3, [r7, #8]
  1195 0200 002B     		cmp	r3, #0
- 1196 0202 45D1     		bne	.L91
+ 1196 0202 45D1     		bne	.L90
  577:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  578:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Clear the transfer complete flag */
-ARM GAS  /tmp/ccMg7Kr2.s 			page 32
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 32
 
 
  579:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     __HAL_DMA_CLEAR_FLAG(hdma, __HAL_DMA_GET_TC_FLAG_INDEX(hdma));
  1197              		.loc 1 579 5
  1198 0204 FB68     		ldr	r3, [r7, #12]
  1199 0206 1B68     		ldr	r3, [r3]
- 1200 0208 1A4A     		ldr	r2, .L117
+ 1200 0208 1A4A     		ldr	r2, .L116
  1201 020a 9342     		cmp	r3, r2
- 1202 020c 29D0     		beq	.L92
+ 1202 020c 29D0     		beq	.L91
  1203              		.loc 1 579 5 is_stmt 0 discriminator 1
  1204 020e FB68     		ldr	r3, [r7, #12]
  1205 0210 1B68     		ldr	r3, [r3]
- 1206 0212 194A     		ldr	r2, .L117+4
+ 1206 0212 194A     		ldr	r2, .L116+4
  1207 0214 9342     		cmp	r3, r2
- 1208 0216 22D0     		beq	.L93
+ 1208 0216 22D0     		beq	.L92
  1209              		.loc 1 579 5 discriminator 3
  1210 0218 FB68     		ldr	r3, [r7, #12]
  1211 021a 1B68     		ldr	r3, [r3]
- 1212 021c 174A     		ldr	r2, .L117+8
+ 1212 021c 174A     		ldr	r2, .L116+8
  1213 021e 9342     		cmp	r3, r2
- 1214 0220 1AD0     		beq	.L94
+ 1214 0220 1AD0     		beq	.L93
  1215              		.loc 1 579 5 discriminator 5
  1216 0222 FB68     		ldr	r3, [r7, #12]
  1217 0224 1B68     		ldr	r3, [r3]
- 1218 0226 164A     		ldr	r2, .L117+12
+ 1218 0226 164A     		ldr	r2, .L116+12
  1219 0228 9342     		cmp	r3, r2
- 1220 022a 12D0     		beq	.L95
+ 1220 022a 12D0     		beq	.L94
  1221              		.loc 1 579 5 discriminator 7
  1222 022c FB68     		ldr	r3, [r7, #12]
  1223 022e 1B68     		ldr	r3, [r3]
- 1224 0230 144A     		ldr	r2, .L117+16
+ 1224 0230 144A     		ldr	r2, .L116+16
  1225 0232 9342     		cmp	r3, r2
- 1226 0234 0AD0     		beq	.L96
+ 1226 0234 0AD0     		beq	.L95
  1227              		.loc 1 579 5 discriminator 9
  1228 0236 FB68     		ldr	r3, [r7, #12]
  1229 0238 1B68     		ldr	r3, [r3]
- 1230 023a 134A     		ldr	r2, .L117+20
+ 1230 023a 134A     		ldr	r2, .L116+20
  1231 023c 9342     		cmp	r3, r2
- 1232 023e 02D1     		bne	.L97
+ 1232 023e 02D1     		bne	.L96
  1233              		.loc 1 579 5 discriminator 11
  1234 0240 4FF40013 		mov	r3, #2097152
- 1235 0244 0EE0     		b	.L103
- 1236              	.L97:
+ 1235 0244 0EE0     		b	.L102
+ 1236              	.L96:
  1237              		.loc 1 579 5 discriminator 12
  1238 0246 4FF00073 		mov	r3, #33554432
- 1239 024a 0BE0     		b	.L103
- 1240              	.L96:
+ 1239 024a 0BE0     		b	.L102
+ 1240              	.L95:
  1241              		.loc 1 579 5 discriminator 10
  1242 024c 4FF40033 		mov	r3, #131072
- 1243 0250 08E0     		b	.L103
- 1244              	.L95:
+ 1243 0250 08E0     		b	.L102
+ 1244              	.L94:
  1245              		.loc 1 579 5 discriminator 8
  1246 0252 4FF40053 		mov	r3, #8192
- 1247 0256 05E0     		b	.L103
- 1248              	.L94:
+ 1247 0256 05E0     		b	.L102
+ 1248              	.L93:
  1249              		.loc 1 579 5 discriminator 6
  1250 0258 4FF40073 		mov	r3, #512
- 1251 025c 02E0     		b	.L103
- 1252              	.L93:
-ARM GAS  /tmp/ccMg7Kr2.s 			page 33
+ 1251 025c 02E0     		b	.L102
+ 1252              	.L92:
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 33
 
 
  1253              		.loc 1 579 5 discriminator 4
  1254 025e 2023     		movs	r3, #32
- 1255 0260 00E0     		b	.L103
- 1256              	.L92:
+ 1255 0260 00E0     		b	.L102
+ 1256              	.L91:
  1257              		.loc 1 579 5 discriminator 2
  1258 0262 0223     		movs	r3, #2
- 1259              	.L103:
+ 1259              	.L102:
  1260              		.loc 1 579 5 discriminator 24
- 1261 0264 094A     		ldr	r2, .L117+24
+ 1261 0264 094A     		ldr	r2, .L116+24
  1262 0266 5360     		str	r3, [r2, #4]
  580:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  581:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* The selected Channelx EN bit is cleared (DMA is disabled and
@@ -1939,10 +1939,10 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1264 0268 FB68     		ldr	r3, [r7, #12]
  1265 026a 0122     		movs	r2, #1
  1266 026c 83F82120 		strb	r2, [r3, #33]
- 1267 0270 40E0     		b	.L104
- 1268              	.L118:
+ 1267 0270 40E0     		b	.L103
+ 1268              	.L117:
  1269 0272 00BF     		.align	2
- 1270              	.L117:
+ 1270              	.L116:
  1271 0274 08000240 		.word	1073872904
  1272 0278 1C000240 		.word	1073872924
  1273 027c 30000240 		.word	1073872944
@@ -1950,7 +1950,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1275 0284 58000240 		.word	1073872984
  1276 0288 6C000240 		.word	1073873004
  1277 028c 00000240 		.word	1073872896
- 1278              	.L91:
+ 1278              	.L90:
  584:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  585:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   else
  586:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
@@ -1959,73 +1959,73 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1279              		.loc 1 588 5
  1280 0290 FB68     		ldr	r3, [r7, #12]
  1281 0292 1B68     		ldr	r3, [r3]
- 1282 0294 1C4A     		ldr	r2, .L119
+ 1282 0294 1C4A     		ldr	r2, .L118
  1283 0296 9342     		cmp	r3, r2
- 1284 0298 29D0     		beq	.L105
+ 1284 0298 29D0     		beq	.L104
  1285              		.loc 1 588 5 is_stmt 0 discriminator 1
  1286 029a FB68     		ldr	r3, [r7, #12]
  1287 029c 1B68     		ldr	r3, [r3]
- 1288 029e 1B4A     		ldr	r2, .L119+4
+ 1288 029e 1B4A     		ldr	r2, .L118+4
  1289 02a0 9342     		cmp	r3, r2
- 1290 02a2 22D0     		beq	.L106
+ 1290 02a2 22D0     		beq	.L105
  1291              		.loc 1 588 5 discriminator 3
  1292 02a4 FB68     		ldr	r3, [r7, #12]
  1293 02a6 1B68     		ldr	r3, [r3]
- 1294 02a8 194A     		ldr	r2, .L119+8
+ 1294 02a8 194A     		ldr	r2, .L118+8
  1295 02aa 9342     		cmp	r3, r2
- 1296 02ac 1AD0     		beq	.L107
+ 1296 02ac 1AD0     		beq	.L106
  1297              		.loc 1 588 5 discriminator 5
  1298 02ae FB68     		ldr	r3, [r7, #12]
  1299 02b0 1B68     		ldr	r3, [r3]
- 1300 02b2 184A     		ldr	r2, .L119+12
-ARM GAS  /tmp/ccMg7Kr2.s 			page 34
+ 1300 02b2 184A     		ldr	r2, .L118+12
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 34
 
 
  1301 02b4 9342     		cmp	r3, r2
- 1302 02b6 12D0     		beq	.L108
+ 1302 02b6 12D0     		beq	.L107
  1303              		.loc 1 588 5 discriminator 7
  1304 02b8 FB68     		ldr	r3, [r7, #12]
  1305 02ba 1B68     		ldr	r3, [r3]
- 1306 02bc 164A     		ldr	r2, .L119+16
+ 1306 02bc 164A     		ldr	r2, .L118+16
  1307 02be 9342     		cmp	r3, r2
- 1308 02c0 0AD0     		beq	.L109
+ 1308 02c0 0AD0     		beq	.L108
  1309              		.loc 1 588 5 discriminator 9
  1310 02c2 FB68     		ldr	r3, [r7, #12]
  1311 02c4 1B68     		ldr	r3, [r3]
- 1312 02c6 154A     		ldr	r2, .L119+20
+ 1312 02c6 154A     		ldr	r2, .L118+20
  1313 02c8 9342     		cmp	r3, r2
- 1314 02ca 02D1     		bne	.L110
+ 1314 02ca 02D1     		bne	.L109
  1315              		.loc 1 588 5 discriminator 11
  1316 02cc 4FF48003 		mov	r3, #4194304
- 1317 02d0 0EE0     		b	.L116
- 1318              	.L110:
+ 1317 02d0 0EE0     		b	.L115
+ 1318              	.L109:
  1319              		.loc 1 588 5 discriminator 12
  1320 02d2 4FF08063 		mov	r3, #67108864
- 1321 02d6 0BE0     		b	.L116
- 1322              	.L109:
+ 1321 02d6 0BE0     		b	.L115
+ 1322              	.L108:
  1323              		.loc 1 588 5 discriminator 10
  1324 02d8 4FF48023 		mov	r3, #262144
- 1325 02dc 08E0     		b	.L116
- 1326              	.L108:
+ 1325 02dc 08E0     		b	.L115
+ 1326              	.L107:
  1327              		.loc 1 588 5 discriminator 8
  1328 02de 4FF48043 		mov	r3, #16384
- 1329 02e2 05E0     		b	.L116
- 1330              	.L107:
+ 1329 02e2 05E0     		b	.L115
+ 1330              	.L106:
  1331              		.loc 1 588 5 discriminator 6
  1332 02e4 4FF48063 		mov	r3, #1024
- 1333 02e8 02E0     		b	.L116
- 1334              	.L106:
+ 1333 02e8 02E0     		b	.L115
+ 1334              	.L105:
  1335              		.loc 1 588 5 discriminator 4
  1336 02ea 4023     		movs	r3, #64
- 1337 02ec 00E0     		b	.L116
- 1338              	.L105:
+ 1337 02ec 00E0     		b	.L115
+ 1338              	.L104:
  1339              		.loc 1 588 5 discriminator 2
  1340 02ee 0423     		movs	r3, #4
- 1341              	.L116:
+ 1341              	.L115:
  1342              		.loc 1 588 5 discriminator 24
- 1343 02f0 0B4A     		ldr	r2, .L119+24
+ 1343 02f0 0B4A     		ldr	r2, .L118+24
  1344 02f2 5360     		str	r3, [r2, #4]
- 1345              	.L104:
+ 1345              	.L103:
  589:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  590:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   
  591:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Process unlocked */
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  594:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   return HAL_OK;
  1350              		.loc 1 594 10
  1351 02fc 0023     		movs	r3, #0
-ARM GAS  /tmp/ccMg7Kr2.s 			page 35
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 35
 
 
  1352              	.L46:
@@ -2053,9 +2053,9 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1360              		.cfi_def_cfa_register 13
  1361              		@ sp needed
  1362 0304 80BD     		pop	{r7, pc}
- 1363              	.L120:
+ 1363              	.L119:
  1364 0306 00BF     		.align	2
- 1365              	.L119:
+ 1365              	.L118:
  1366 0308 08000240 		.word	1073872904
  1367 030c 1C000240 		.word	1073872924
  1368 0310 30000240 		.word	1073872944
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1398              	.LCFI40:
  1399              		.cfi_def_cfa_register 7
  1400 0006 7860     		str	r0, [r7, #4]
-ARM GAS  /tmp/ccMg7Kr2.s 			page 36
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 36
 
 
  605:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   uint32_t flag_it = hdma->DmaBaseAddress->ISR;
@@ -2129,13 +2129,13 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1421 0022 1340     		ands	r3, r3, r2
  1422              		.loc 1 609 6
  1423 0024 002B     		cmp	r3, #0
- 1424 0026 4FD0     		beq	.L122
+ 1424 0026 4FD0     		beq	.L121
  1425              		.loc 1 609 82 discriminator 1
  1426 0028 BB68     		ldr	r3, [r7, #8]
  1427 002a 03F00403 		and	r3, r3, #4
  1428              		.loc 1 609 67 discriminator 1
  1429 002e 002B     		cmp	r3, #0
- 1430 0030 4AD0     		beq	.L122
+ 1430 0030 4AD0     		beq	.L121
  610:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  611:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Disable the half transfer interrupt if the DMA mode is not CIRCULAR */
  612:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     if((hdma->Instance->CCR & DMA_CCR_CIRC) == 0U)
@@ -2148,7 +2148,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1437 0038 03F02003 		and	r3, r3, #32
  1438              		.loc 1 612 7
  1439 003c 002B     		cmp	r3, #0
- 1440 003e 07D1     		bne	.L123
+ 1440 003e 07D1     		bne	.L122
  613:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  614:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Disable the half transfer interrupt */
  615:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       __HAL_DMA_DISABLE_IT(hdma, DMA_IT_HT);
@@ -2158,83 +2158,83 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1444 0044 1A68     		ldr	r2, [r3]
  1445 0046 7B68     		ldr	r3, [r7, #4]
  1446 0048 1B68     		ldr	r3, [r3]
-ARM GAS  /tmp/ccMg7Kr2.s 			page 37
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 37
 
 
  1447 004a 22F00402 		bic	r2, r2, #4
  1448 004e 1A60     		str	r2, [r3]
- 1449              	.L123:
+ 1449              	.L122:
  616:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  617:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Clear the half transfer complete flag */
  618:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     __HAL_DMA_CLEAR_FLAG(hdma, __HAL_DMA_GET_HT_FLAG_INDEX(hdma));
  1450              		.loc 1 618 5
  1451 0050 7B68     		ldr	r3, [r7, #4]
  1452 0052 1B68     		ldr	r3, [r3]
- 1453 0054 664A     		ldr	r2, .L155
+ 1453 0054 664A     		ldr	r2, .L154
  1454 0056 9342     		cmp	r3, r2
- 1455 0058 29D0     		beq	.L124
+ 1455 0058 29D0     		beq	.L123
  1456              		.loc 1 618 5 is_stmt 0 discriminator 1
  1457 005a 7B68     		ldr	r3, [r7, #4]
  1458 005c 1B68     		ldr	r3, [r3]
- 1459 005e 654A     		ldr	r2, .L155+4
+ 1459 005e 654A     		ldr	r2, .L154+4
  1460 0060 9342     		cmp	r3, r2
- 1461 0062 22D0     		beq	.L125
+ 1461 0062 22D0     		beq	.L124
  1462              		.loc 1 618 5 discriminator 3
  1463 0064 7B68     		ldr	r3, [r7, #4]
  1464 0066 1B68     		ldr	r3, [r3]
- 1465 0068 634A     		ldr	r2, .L155+8
+ 1465 0068 634A     		ldr	r2, .L154+8
  1466 006a 9342     		cmp	r3, r2
- 1467 006c 1AD0     		beq	.L126
+ 1467 006c 1AD0     		beq	.L125
  1468              		.loc 1 618 5 discriminator 5
  1469 006e 7B68     		ldr	r3, [r7, #4]
  1470 0070 1B68     		ldr	r3, [r3]
- 1471 0072 624A     		ldr	r2, .L155+12
+ 1471 0072 624A     		ldr	r2, .L154+12
  1472 0074 9342     		cmp	r3, r2
- 1473 0076 12D0     		beq	.L127
+ 1473 0076 12D0     		beq	.L126
  1474              		.loc 1 618 5 discriminator 7
  1475 0078 7B68     		ldr	r3, [r7, #4]
  1476 007a 1B68     		ldr	r3, [r3]
- 1477 007c 604A     		ldr	r2, .L155+16
+ 1477 007c 604A     		ldr	r2, .L154+16
  1478 007e 9342     		cmp	r3, r2
- 1479 0080 0AD0     		beq	.L128
+ 1479 0080 0AD0     		beq	.L127
  1480              		.loc 1 618 5 discriminator 9
  1481 0082 7B68     		ldr	r3, [r7, #4]
  1482 0084 1B68     		ldr	r3, [r3]
- 1483 0086 5F4A     		ldr	r2, .L155+20
+ 1483 0086 5F4A     		ldr	r2, .L154+20
  1484 0088 9342     		cmp	r3, r2
- 1485 008a 02D1     		bne	.L129
+ 1485 008a 02D1     		bne	.L128
  1486              		.loc 1 618 5 discriminator 11
  1487 008c 4FF48003 		mov	r3, #4194304
- 1488 0090 0EE0     		b	.L135
- 1489              	.L129:
+ 1488 0090 0EE0     		b	.L134
+ 1489              	.L128:
  1490              		.loc 1 618 5 discriminator 12
  1491 0092 4FF08063 		mov	r3, #67108864
- 1492 0096 0BE0     		b	.L135
- 1493              	.L128:
+ 1492 0096 0BE0     		b	.L134
+ 1493              	.L127:
  1494              		.loc 1 618 5 discriminator 10
  1495 0098 4FF48023 		mov	r3, #262144
- 1496 009c 08E0     		b	.L135
- 1497              	.L127:
+ 1496 009c 08E0     		b	.L134
+ 1497              	.L126:
  1498              		.loc 1 618 5 discriminator 8
  1499 009e 4FF48043 		mov	r3, #16384
- 1500 00a2 05E0     		b	.L135
-ARM GAS  /tmp/ccMg7Kr2.s 			page 38
+ 1500 00a2 05E0     		b	.L134
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 38
 
 
- 1501              	.L126:
+ 1501              	.L125:
  1502              		.loc 1 618 5 discriminator 6
  1503 00a4 4FF48063 		mov	r3, #1024
- 1504 00a8 02E0     		b	.L135
- 1505              	.L125:
+ 1504 00a8 02E0     		b	.L134
+ 1505              	.L124:
  1506              		.loc 1 618 5 discriminator 4
  1507 00aa 4023     		movs	r3, #64
- 1508 00ac 00E0     		b	.L135
- 1509              	.L124:
+ 1508 00ac 00E0     		b	.L134
+ 1509              	.L123:
  1510              		.loc 1 618 5 discriminator 2
  1511 00ae 0423     		movs	r3, #4
- 1512              	.L135:
+ 1512              	.L134:
  1513              		.loc 1 618 5 discriminator 24
- 1514 00b0 554A     		ldr	r2, .L155+24
+ 1514 00b0 554A     		ldr	r2, .L154+24
  1515 00b2 5360     		str	r3, [r2, #4]
  619:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  620:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* DMA peripheral state is not updated in Half Transfer */
@@ -2246,7 +2246,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1518 00b6 DB6A     		ldr	r3, [r3, #44]
  1519              		.loc 1 623 7 discriminator 24
  1520 00b8 002B     		cmp	r3, #0
- 1521 00ba 00F09480 		beq	.L137
+ 1521 00ba 00F09480 		beq	.L136
  624:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  625:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Half transfer callback */
  626:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferHalfCpltCallback(hdma);
@@ -2259,8 +2259,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1528              	.LVL1:
  623:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  1529              		.loc 1 623 7
- 1530 00c6 8EE0     		b	.L137
- 1531              	.L122:
+ 1530 00c6 8EE0     		b	.L136
+ 1531              	.L121:
  627:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  628:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  629:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -2277,8 +2277,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1540 00d2 1340     		ands	r3, r3, r2
  1541              		.loc 1 631 11
  1542 00d4 002B     		cmp	r3, #0
- 1543 00d6 56D0     		beq	.L138
-ARM GAS  /tmp/ccMg7Kr2.s 			page 39
+ 1543 00d6 56D0     		beq	.L137
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 39
 
 
  1544              		.loc 1 631 87 discriminator 1
@@ -2286,7 +2286,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1546 00da 03F00203 		and	r3, r3, #2
  1547              		.loc 1 631 72 discriminator 1
  1548 00de 002B     		cmp	r3, #0
- 1549 00e0 51D0     		beq	.L138
+ 1549 00e0 51D0     		beq	.L137
  632:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  633:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     if((hdma->Instance->CCR & DMA_CCR_CIRC) == 0U)
  1550              		.loc 1 633 13
@@ -2298,7 +2298,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1556 00e8 03F02003 		and	r3, r3, #32
  1557              		.loc 1 633 7
  1558 00ec 002B     		cmp	r3, #0
- 1559 00ee 0BD1     		bne	.L139
+ 1559 00ee 0BD1     		bne	.L138
  634:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  635:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Disable the transfer complete and error interrupt */
  636:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       __HAL_DMA_DISABLE_IT(hdma, DMA_IT_TE | DMA_IT_TC);  
@@ -2317,78 +2317,78 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1569 0100 7B68     		ldr	r3, [r7, #4]
  1570 0102 0122     		movs	r2, #1
  1571 0104 83F82120 		strb	r2, [r3, #33]
- 1572              	.L139:
+ 1572              	.L138:
  640:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  641:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Clear the transfer complete flag */
  642:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       __HAL_DMA_CLEAR_FLAG(hdma, __HAL_DMA_GET_TC_FLAG_INDEX(hdma));
  1573              		.loc 1 642 7
  1574 0108 7B68     		ldr	r3, [r7, #4]
  1575 010a 1B68     		ldr	r3, [r3]
- 1576 010c 384A     		ldr	r2, .L155
+ 1576 010c 384A     		ldr	r2, .L154
  1577 010e 9342     		cmp	r3, r2
- 1578 0110 29D0     		beq	.L140
+ 1578 0110 29D0     		beq	.L139
  1579              		.loc 1 642 7 is_stmt 0 discriminator 1
  1580 0112 7B68     		ldr	r3, [r7, #4]
  1581 0114 1B68     		ldr	r3, [r3]
- 1582 0116 374A     		ldr	r2, .L155+4
+ 1582 0116 374A     		ldr	r2, .L154+4
  1583 0118 9342     		cmp	r3, r2
- 1584 011a 22D0     		beq	.L141
+ 1584 011a 22D0     		beq	.L140
  1585              		.loc 1 642 7 discriminator 3
  1586 011c 7B68     		ldr	r3, [r7, #4]
  1587 011e 1B68     		ldr	r3, [r3]
- 1588 0120 354A     		ldr	r2, .L155+8
+ 1588 0120 354A     		ldr	r2, .L154+8
  1589 0122 9342     		cmp	r3, r2
-ARM GAS  /tmp/ccMg7Kr2.s 			page 40
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 40
 
 
- 1590 0124 1AD0     		beq	.L142
+ 1590 0124 1AD0     		beq	.L141
  1591              		.loc 1 642 7 discriminator 5
  1592 0126 7B68     		ldr	r3, [r7, #4]
  1593 0128 1B68     		ldr	r3, [r3]
- 1594 012a 344A     		ldr	r2, .L155+12
+ 1594 012a 344A     		ldr	r2, .L154+12
  1595 012c 9342     		cmp	r3, r2
- 1596 012e 12D0     		beq	.L143
+ 1596 012e 12D0     		beq	.L142
  1597              		.loc 1 642 7 discriminator 7
  1598 0130 7B68     		ldr	r3, [r7, #4]
  1599 0132 1B68     		ldr	r3, [r3]
- 1600 0134 324A     		ldr	r2, .L155+16
+ 1600 0134 324A     		ldr	r2, .L154+16
  1601 0136 9342     		cmp	r3, r2
- 1602 0138 0AD0     		beq	.L144
+ 1602 0138 0AD0     		beq	.L143
  1603              		.loc 1 642 7 discriminator 9
  1604 013a 7B68     		ldr	r3, [r7, #4]
  1605 013c 1B68     		ldr	r3, [r3]
- 1606 013e 314A     		ldr	r2, .L155+20
+ 1606 013e 314A     		ldr	r2, .L154+20
  1607 0140 9342     		cmp	r3, r2
- 1608 0142 02D1     		bne	.L145
+ 1608 0142 02D1     		bne	.L144
  1609              		.loc 1 642 7 discriminator 11
  1610 0144 4FF40013 		mov	r3, #2097152
- 1611 0148 0EE0     		b	.L151
- 1612              	.L145:
+ 1611 0148 0EE0     		b	.L150
+ 1612              	.L144:
  1613              		.loc 1 642 7 discriminator 12
  1614 014a 4FF00073 		mov	r3, #33554432
- 1615 014e 0BE0     		b	.L151
- 1616              	.L144:
+ 1615 014e 0BE0     		b	.L150
+ 1616              	.L143:
  1617              		.loc 1 642 7 discriminator 10
  1618 0150 4FF40033 		mov	r3, #131072
- 1619 0154 08E0     		b	.L151
- 1620              	.L143:
+ 1619 0154 08E0     		b	.L150
+ 1620              	.L142:
  1621              		.loc 1 642 7 discriminator 8
  1622 0156 4FF40053 		mov	r3, #8192
- 1623 015a 05E0     		b	.L151
- 1624              	.L142:
+ 1623 015a 05E0     		b	.L150
+ 1624              	.L141:
  1625              		.loc 1 642 7 discriminator 6
  1626 015c 4FF40073 		mov	r3, #512
- 1627 0160 02E0     		b	.L151
- 1628              	.L141:
+ 1627 0160 02E0     		b	.L150
+ 1628              	.L140:
  1629              		.loc 1 642 7 discriminator 4
  1630 0162 2023     		movs	r3, #32
- 1631 0164 00E0     		b	.L151
- 1632              	.L140:
+ 1631 0164 00E0     		b	.L150
+ 1632              	.L139:
  1633              		.loc 1 642 7 discriminator 2
  1634 0166 0223     		movs	r3, #2
- 1635              	.L151:
+ 1635              	.L150:
  1636              		.loc 1 642 7 discriminator 24
- 1637 0168 274A     		ldr	r2, .L155+24
+ 1637 0168 274A     		ldr	r2, .L154+24
  1638 016a 5360     		str	r3, [r2, #4]
  643:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  644:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Process Unlocked */
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1641 016e 0022     		movs	r2, #0
  1642 0170 83F82020 		strb	r2, [r3, #32]
  646:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
-ARM GAS  /tmp/ccMg7Kr2.s 			page 41
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 41
 
 
  647:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     if(hdma->XferCpltCallback != NULL)
@@ -2407,7 +2407,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1645 0176 9B6A     		ldr	r3, [r3, #40]
  1646              		.loc 1 647 7 discriminator 24
  1647 0178 002B     		cmp	r3, #0
- 1648 017a 34D0     		beq	.L137
+ 1648 017a 34D0     		beq	.L136
  648:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  649:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Transfer complete callback */
  650:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferCpltCallback(hdma);
@@ -2420,8 +2420,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1655              	.LVL2:
  647:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  1656              		.loc 1 647 7
- 1657 0184 2FE0     		b	.L137
- 1658              	.L138:
+ 1657 0184 2FE0     		b	.L136
+ 1658              	.L137:
  651:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  652:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  653:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -2438,13 +2438,13 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1667 0190 1340     		ands	r3, r3, r2
  1668              		.loc 1 655 11
  1669 0192 002B     		cmp	r3, #0
- 1670 0194 28D0     		beq	.L154
+ 1670 0194 28D0     		beq	.L153
  1671              		.loc 1 655 97 discriminator 1
  1672 0196 BB68     		ldr	r3, [r7, #8]
  1673 0198 03F00803 		and	r3, r3, #8
  1674              		.loc 1 655 73 discriminator 1
  1675 019c 002B     		cmp	r3, #0
- 1676 019e 23D0     		beq	.L154
+ 1676 019e 23D0     		beq	.L153
  656:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* When a DMA transfer error occurs */
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* A hardware clear of its EN bits is performed */
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1682 01a8 1B68     		ldr	r3, [r3]
  1683 01aa 22F00E02 		bic	r2, r2, #14
  1684 01ae 1A60     		str	r2, [r3]
-ARM GAS  /tmp/ccMg7Kr2.s 			page 42
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 42
 
 
  661:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -2503,7 +2503,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1710 01d8 1B6B     		ldr	r3, [r3, #48]
  1711              		.loc 1 674 8
  1712 01da 002B     		cmp	r3, #0
- 1713 01dc 04D0     		beq	.L154
+ 1713 01dc 04D0     		beq	.L153
  675:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  676:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Transfer error callback */
  677:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferErrorCallback(hdma);
@@ -2514,16 +2514,16 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1718 01e2 7868     		ldr	r0, [r7, #4]
  1719 01e4 9847     		blx	r3
  1720              	.LVL3:
- 1721              	.L137:
+ 1721              	.L136:
  678:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  679:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  680:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   return;
-ARM GAS  /tmp/ccMg7Kr2.s 			page 43
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 43
 
 
  1722              		.loc 1 680 3 discriminator 1
  1723 01e6 00BF     		nop
- 1724              	.L154:
+ 1724              	.L153:
  1725              		.loc 1 680 3 is_stmt 0
  1726 01e8 00BF     		nop
  681:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** }
@@ -2536,9 +2536,9 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1733              		.cfi_def_cfa_register 13
  1734              		@ sp needed
  1735 01ee 80BD     		pop	{r7, pc}
- 1736              	.L156:
+ 1736              	.L155:
  1737              		.align	2
- 1738              	.L155:
+ 1738              	.L154:
  1739 01f0 08000240 		.word	1073872904
  1740 01f4 1C000240 		.word	1073872924
  1741 01f8 30000240 		.word	1073872944
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1764              	.LCFI43:
  1765              		.cfi_def_cfa_offset 4
  1766              		.cfi_offset 7, -4
-ARM GAS  /tmp/ccMg7Kr2.s 			page 44
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 44
 
 
  1767 0002 87B0     		sub	sp, sp, #28
@@ -2602,11 +2602,11 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1781 0012 FB68     		ldr	r3, [r7, #12]
  1782 0014 93F82030 		ldrb	r3, [r3, #32]	@ zero_extendqisi2
  1783 0018 012B     		cmp	r3, #1
- 1784 001a 01D1     		bne	.L158
+ 1784 001a 01D1     		bne	.L157
  1785              		.loc 1 698 3 is_stmt 0 discriminator 1
  1786 001c 0223     		movs	r3, #2
- 1787 001e 31E0     		b	.L159
- 1788              	.L158:
+ 1787 001e 31E0     		b	.L158
+ 1788              	.L157:
  1789              		.loc 1 698 3 discriminator 2
  1790 0020 FB68     		ldr	r3, [r7, #12]
  1791 0022 0122     		movs	r2, #1
@@ -2618,27 +2618,27 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1795 002a 93F82130 		ldrb	r3, [r3, #33]	@ zero_extendqisi2
  1796              		.loc 1 700 5 discriminator 2
  1797 002e 012B     		cmp	r3, #1
- 1798 0030 21D1     		bne	.L160
+ 1798 0030 21D1     		bne	.L159
  701:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  702:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     switch (CallbackID)
  1799              		.loc 1 702 5
  1800 0032 FB7A     		ldrb	r3, [r7, #11]	@ zero_extendqisi2
  1801 0034 032B     		cmp	r3, #3
- 1802 0036 1BD8     		bhi	.L161
- 1803 0038 01A2     		adr	r2, .L163
+ 1802 0036 1BD8     		bhi	.L160
+ 1803 0038 01A2     		adr	r2, .L162
  1804 003a 52F823F0 		ldr	pc, [r2, r3, lsl #2]
  1805 003e 00BF     		.p2align 2
- 1806              	.L163:
- 1807 0040 51000000 		.word	.L166+1
- 1808 0044 59000000 		.word	.L165+1
- 1809 0048 61000000 		.word	.L164+1
- 1810 004c 69000000 		.word	.L162+1
+ 1806              	.L162:
+ 1807 0040 51000000 		.word	.L165+1
+ 1808 0044 59000000 		.word	.L164+1
+ 1809 0048 61000000 		.word	.L163+1
+ 1810 004c 69000000 		.word	.L161+1
  1811              		.p2align 1
- 1812              	.L166:
+ 1812              	.L165:
  703:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  704:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_CPLT_CB_ID:
  705:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferCpltCallback = pCallback;
-ARM GAS  /tmp/ccMg7Kr2.s 			page 45
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 45
 
 
  1813              		.loc 1 705 30
@@ -2647,8 +2647,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1816 0054 9A62     		str	r2, [r3, #40]
  706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;
  1817              		.loc 1 706 7
- 1818 0056 10E0     		b	.L168
- 1819              	.L165:
+ 1818 0056 10E0     		b	.L167
+ 1819              	.L164:
  707:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       
  708:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_HALFCPLT_CB_ID:
  709:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferHalfCpltCallback = pCallback;
@@ -2658,8 +2658,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1823 005c DA62     		str	r2, [r3, #44]
  710:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;         
  1824              		.loc 1 710 7
- 1825 005e 0CE0     		b	.L168
- 1826              	.L164:
+ 1825 005e 0CE0     		b	.L167
+ 1826              	.L163:
  711:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  712:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_ERROR_CB_ID:
  713:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferErrorCallback = pCallback;
@@ -2669,8 +2669,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1830 0064 1A63     		str	r2, [r3, #48]
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;         
  1831              		.loc 1 714 7
- 1832 0066 08E0     		b	.L168
- 1833              	.L162:
+ 1832 0066 08E0     		b	.L167
+ 1833              	.L161:
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_ABORT_CB_ID:
  717:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferAbortCallback = pCallback;
@@ -2680,8 +2680,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1837 006c 5A63     		str	r2, [r3, #52]
  718:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break; 
  1838              		.loc 1 718 7
- 1839 006e 04E0     		b	.L168
- 1840              	.L161:
+ 1839 006e 04E0     		b	.L167
+ 1840              	.L160:
  719:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       
  720:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     default:
  721:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       status = HAL_ERROR;
@@ -2690,20 +2690,20 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1843 0072 FB75     		strb	r3, [r7, #23]
  722:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;                                                            
  1844              		.loc 1 722 7
- 1845 0074 01E0     		b	.L168
- 1846              	.L160:
+ 1845 0074 01E0     		b	.L167
+ 1846              	.L159:
  723:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  724:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  725:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   else
  726:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  727:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     status = HAL_ERROR;
  1847              		.loc 1 727 12
-ARM GAS  /tmp/ccMg7Kr2.s 			page 46
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 46
 
 
  1848 0076 0123     		movs	r3, #1
  1849 0078 FB75     		strb	r3, [r7, #23]
- 1850              	.L168:
+ 1850              	.L167:
  728:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   } 
  729:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   
  730:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Release Lock */
@@ -2716,7 +2716,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  733:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   return status;
  1855              		.loc 1 733 10
  1856 0082 FB7D     		ldrb	r3, [r7, #23]	@ zero_extendqisi2
- 1857              	.L159:
+ 1857              	.L158:
  734:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** }
  1858              		.loc 1 734 1
  1859 0084 1846     		mov	r0, r3
@@ -2734,7 +2734,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1871 008c 7047     		bx	lr
  1872              		.cfi_endproc
  1873              	.LFE73:
- 1875 008e 00BF     		.section	.text.HAL_DMA_UnRegisterCallback,"ax",%progbits
+ 1875              		.section	.text.HAL_DMA_UnRegisterCallback,"ax",%progbits
  1876              		.align	1
  1877              		.global	HAL_DMA_UnRegisterCallback
  1878              		.syntax unified
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1886              		@ args = 0, pretend = 0, frame = 16
  1887              		@ frame_needed = 1, uses_anonymous_args = 0
  1888              		@ link register save eliminated.
-ARM GAS  /tmp/ccMg7Kr2.s 			page 47
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 47
 
 
  1889 0000 80B4     		push	{r7}
@@ -2785,11 +2785,11 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1906 0010 7B68     		ldr	r3, [r7, #4]
  1907 0012 93F82030 		ldrb	r3, [r3, #32]	@ zero_extendqisi2
  1908 0016 012B     		cmp	r3, #1
- 1909 0018 01D1     		bne	.L170
+ 1909 0018 01D1     		bne	.L169
  1910              		.loc 1 749 3 is_stmt 0 discriminator 1
  1911 001a 0223     		movs	r3, #2
- 1912 001c 3FE0     		b	.L171
- 1913              	.L170:
+ 1912 001c 3FE0     		b	.L170
+ 1913              	.L169:
  1914              		.loc 1 749 3 discriminator 2
  1915 001e 7B68     		ldr	r3, [r7, #4]
  1916 0020 0122     		movs	r2, #1
@@ -2801,27 +2801,27 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1920 0028 93F82130 		ldrb	r3, [r3, #33]	@ zero_extendqisi2
  1921              		.loc 1 751 5 discriminator 2
  1922 002c 012B     		cmp	r3, #1
- 1923 002e 2FD1     		bne	.L172
+ 1923 002e 2FD1     		bne	.L171
  752:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  753:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     switch (CallbackID)
  1924              		.loc 1 753 5
  1925 0030 FB78     		ldrb	r3, [r7, #3]	@ zero_extendqisi2
  1926 0032 042B     		cmp	r3, #4
- 1927 0034 29D8     		bhi	.L173
- 1928 0036 01A2     		adr	r2, .L175
+ 1927 0034 29D8     		bhi	.L172
+ 1928 0036 01A2     		adr	r2, .L174
  1929 0038 52F823F0 		ldr	pc, [r2, r3, lsl #2]
  1930              		.p2align 2
- 1931              	.L175:
- 1932 003c 51000000 		.word	.L179+1
- 1933 0040 59000000 		.word	.L178+1
- 1934 0044 61000000 		.word	.L177+1
- 1935 0048 69000000 		.word	.L176+1
- 1936 004c 71000000 		.word	.L174+1
+ 1931              	.L174:
+ 1932 003c 51000000 		.word	.L178+1
+ 1933 0040 59000000 		.word	.L177+1
+ 1934 0044 61000000 		.word	.L176+1
+ 1935 0048 69000000 		.word	.L175+1
+ 1936 004c 71000000 		.word	.L173+1
  1937              		.p2align 1
-ARM GAS  /tmp/ccMg7Kr2.s 			page 48
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 48
 
 
- 1938              	.L179:
+ 1938              	.L178:
  754:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  755:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_CPLT_CB_ID:
  756:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferCpltCallback = NULL;
@@ -2831,8 +2831,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1942 0054 9A62     		str	r2, [r3, #40]
  757:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;
  1943              		.loc 1 757 7
- 1944 0056 1DE0     		b	.L181
- 1945              	.L178:
+ 1944 0056 1DE0     		b	.L180
+ 1945              	.L177:
  758:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  759:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_HALFCPLT_CB_ID:
  760:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferHalfCpltCallback = NULL;
@@ -2842,8 +2842,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1949 005c DA62     		str	r2, [r3, #44]
  761:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;         
  1950              		.loc 1 761 7
- 1951 005e 19E0     		b	.L181
- 1952              	.L177:
+ 1951 005e 19E0     		b	.L180
+ 1952              	.L176:
  762:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  763:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_ERROR_CB_ID:
  764:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferErrorCallback = NULL;
@@ -2853,8 +2853,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1956 0064 1A63     		str	r2, [r3, #48]
  765:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;         
  1957              		.loc 1 765 7
- 1958 0066 15E0     		b	.L181
- 1959              	.L176:
+ 1958 0066 15E0     		b	.L180
+ 1959              	.L175:
  766:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  767:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_ABORT_CB_ID:
  768:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferAbortCallback = NULL;
@@ -2864,8 +2864,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1963 006c 5A63     		str	r2, [r3, #52]
  769:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break; 
  1964              		.loc 1 769 7
- 1965 006e 11E0     		b	.L181
- 1966              	.L174:
+ 1965 006e 11E0     		b	.L180
+ 1966              	.L173:
  770:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case   HAL_DMA_XFER_ALL_CB_ID:
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferCpltCallback = NULL;
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1972 0076 7B68     		ldr	r3, [r7, #4]
  1973 0078 0022     		movs	r2, #0
  1974 007a DA62     		str	r2, [r3, #44]
-ARM GAS  /tmp/ccMg7Kr2.s 			page 49
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 49
 
 
  774:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferErrorCallback = NULL;
@@ -2893,8 +2893,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1982 0086 5A63     		str	r2, [r3, #52]
  776:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break; 
  1983              		.loc 1 776 7
- 1984 0088 04E0     		b	.L181
- 1985              	.L173:
+ 1984 0088 04E0     		b	.L180
+ 1985              	.L172:
  777:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  778:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     default:
  779:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       status = HAL_ERROR;
@@ -2903,8 +2903,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1988 008c FB73     		strb	r3, [r7, #15]
  780:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;
  1989              		.loc 1 780 7
- 1990 008e 01E0     		b	.L181
- 1991              	.L172:
+ 1990 008e 01E0     		b	.L180
+ 1991              	.L171:
  781:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  782:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  783:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   else
@@ -2913,7 +2913,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  1992              		.loc 1 785 12
  1993 0090 0123     		movs	r3, #1
  1994 0092 FB73     		strb	r3, [r7, #15]
- 1995              	.L181:
+ 1995              	.L180:
  786:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   } 
  787:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   
  788:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Release Lock */
@@ -2926,7 +2926,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  791:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   return status;
  2000              		.loc 1 791 10
  2001 009c FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
- 2002              	.L171:
+ 2002              	.L170:
  792:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** }
  2003              		.loc 1 792 1
  2004 009e 1846     		mov	r0, r3
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2010              		.cfi_def_cfa_register 13
  2011              		@ sp needed
  2012 00a4 80BC     		pop	{r7}
-ARM GAS  /tmp/ccMg7Kr2.s 			page 50
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 50
 
 
  2013              	.LCFI54:
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2040              		.cfi_def_cfa_offset 16
  2041 0004 00AF     		add	r7, sp, #0
  2042              	.LCFI57:
-ARM GAS  /tmp/ccMg7Kr2.s 			page 51
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 51
 
 
  2043              		.cfi_def_cfa_register 7
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2087              	.LCFI63:
  2088              		.cfi_def_cfa_register 7
  2089 0006 7860     		str	r0, [r7, #4]
-ARM GAS  /tmp/ccMg7Kr2.s 			page 52
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 52
 
 
  834:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   return hdma->ErrorCode;
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2120              		@ args = 0, pretend = 0, frame = 16
  2121              		@ frame_needed = 1, uses_anonymous_args = 0
  2122              		@ link register save eliminated.
-ARM GAS  /tmp/ccMg7Kr2.s 			page 53
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 53
 
 
  2123 0000 80B4     		push	{r7}
@@ -3165,7 +3165,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2156 0028 5B68     		ldr	r3, [r3, #4]
  2157              		.loc 1 867 5
  2158 002a 102B     		cmp	r3, #16
- 2159 002c 08D1     		bne	.L187
+ 2159 002c 08D1     		bne	.L186
  868:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  869:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Configure DMA Channel destination address */
  870:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     hdma->Instance->CPAR = DstAddress;
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  871:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  872:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Configure DMA Channel source address */
  873:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     hdma->Instance->CMAR = SrcAddress;
-ARM GAS  /tmp/ccMg7Kr2.s 			page 54
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 54
 
 
  2166              		.loc 1 873 9
@@ -3199,8 +3199,8 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  883:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }
  884:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** }
  2172              		.loc 1 884 1
- 2173 003e 07E0     		b	.L189
- 2174              	.L187:
+ 2173 003e 07E0     		b	.L188
+ 2174              	.L186:
  879:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  2175              		.loc 1 879 9
  2176 0040 FB68     		ldr	r3, [r7, #12]
@@ -3217,7 +3217,7 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2184              		.loc 1 882 26
  2185 004c 7A68     		ldr	r2, [r7, #4]
  2186 004e DA60     		str	r2, [r3, #12]
- 2187              	.L189:
+ 2187              	.L188:
  2188              		.loc 1 884 1
  2189 0050 00BF     		nop
  2190 0052 1437     		adds	r7, r7, #20
@@ -3236,9 +3236,9 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2203              	.LFE77:
  2205              		.text
  2206              	.Letext0:
- 2207              		.file 2 "/opt/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_defa
- 2208              		.file 3 "/opt/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
-ARM GAS  /tmp/ccMg7Kr2.s 			page 55
+ 2207              		.file 2 "c:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-ea
+ 2208              		.file 3 "c:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-ea
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 55
 
 
  2209              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
@@ -3246,48 +3246,48 @@ ARM GAS  /tmp/ccMg7Kr2.s 			page 1
  2211              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
  2212              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
  2213              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  /tmp/ccMg7Kr2.s 			page 56
+ARM GAS  C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s 			page 56
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 stm32f1xx_hal_dma.c
-     /tmp/ccMg7Kr2.s:19     .text.HAL_DMA_Init:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:25     .text.HAL_DMA_Init:0000000000000000 HAL_DMA_Init
-     /tmp/ccMg7Kr2.s:165    .text.HAL_DMA_Init:00000000000000a8 $d
-     /tmp/ccMg7Kr2.s:172    .text.HAL_DMA_DeInit:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:178    .text.HAL_DMA_DeInit:0000000000000000 HAL_DMA_DeInit
-     /tmp/ccMg7Kr2.s:316    .text.HAL_DMA_DeInit:00000000000000ac $d
-     /tmp/ccMg7Kr2.s:323    .text.HAL_DMA_Start:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:329    .text.HAL_DMA_Start:0000000000000000 HAL_DMA_Start
-     /tmp/ccMg7Kr2.s:2116   .text.DMA_SetConfig:0000000000000000 DMA_SetConfig
-     /tmp/ccMg7Kr2.s:429    .text.HAL_DMA_Start_IT:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:435    .text.HAL_DMA_Start_IT:0000000000000000 HAL_DMA_Start_IT
-     /tmp/ccMg7Kr2.s:568    .text.HAL_DMA_Abort:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:574    .text.HAL_DMA_Abort:0000000000000000 HAL_DMA_Abort
-     /tmp/ccMg7Kr2.s:669    .text.HAL_DMA_Abort_IT:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:675    .text.HAL_DMA_Abort_IT:0000000000000000 HAL_DMA_Abort_IT
-     /tmp/ccMg7Kr2.s:830    .text.HAL_DMA_Abort_IT:00000000000000d0 $d
-     /tmp/ccMg7Kr2.s:841    .text.HAL_DMA_PollForTransfer:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:847    .text.HAL_DMA_PollForTransfer:0000000000000000 HAL_DMA_PollForTransfer
-     /tmp/ccMg7Kr2.s:1271   .text.HAL_DMA_PollForTransfer:0000000000000274 $d
-     /tmp/ccMg7Kr2.s:1280   .text.HAL_DMA_PollForTransfer:0000000000000290 $t
-     /tmp/ccMg7Kr2.s:1366   .text.HAL_DMA_PollForTransfer:0000000000000308 $d
-     /tmp/ccMg7Kr2.s:1377   .text.HAL_DMA_IRQHandler:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:1383   .text.HAL_DMA_IRQHandler:0000000000000000 HAL_DMA_IRQHandler
-     /tmp/ccMg7Kr2.s:1739   .text.HAL_DMA_IRQHandler:00000000000001f0 $d
-     /tmp/ccMg7Kr2.s:1750   .text.HAL_DMA_RegisterCallback:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:1756   .text.HAL_DMA_RegisterCallback:0000000000000000 HAL_DMA_RegisterCallback
-     /tmp/ccMg7Kr2.s:1807   .text.HAL_DMA_RegisterCallback:0000000000000040 $d
-     /tmp/ccMg7Kr2.s:1811   .text.HAL_DMA_RegisterCallback:0000000000000050 $t
-     /tmp/ccMg7Kr2.s:1876   .text.HAL_DMA_UnRegisterCallback:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:1882   .text.HAL_DMA_UnRegisterCallback:0000000000000000 HAL_DMA_UnRegisterCallback
-     /tmp/ccMg7Kr2.s:1932   .text.HAL_DMA_UnRegisterCallback:000000000000003c $d
-     /tmp/ccMg7Kr2.s:1937   .text.HAL_DMA_UnRegisterCallback:0000000000000050 $t
-     /tmp/ccMg7Kr2.s:2021   .text.HAL_DMA_GetState:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:2027   .text.HAL_DMA_GetState:0000000000000000 HAL_DMA_GetState
-     /tmp/ccMg7Kr2.s:2066   .text.HAL_DMA_GetError:0000000000000000 $t
-     /tmp/ccMg7Kr2.s:2072   .text.HAL_DMA_GetError:0000000000000000 HAL_DMA_GetError
-     /tmp/ccMg7Kr2.s:2111   .text.DMA_SetConfig:0000000000000000 $t
+                            *ABS*:00000000 stm32f1xx_hal_dma.c
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:18     .text.HAL_DMA_Init:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:24     .text.HAL_DMA_Init:00000000 HAL_DMA_Init
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:165    .text.HAL_DMA_Init:000000a8 $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:172    .text.HAL_DMA_DeInit:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:178    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:316    .text.HAL_DMA_DeInit:000000ac $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:323    .text.HAL_DMA_Start:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:329    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:2116   .text.DMA_SetConfig:00000000 DMA_SetConfig
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:429    .text.HAL_DMA_Start_IT:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:435    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:568    .text.HAL_DMA_Abort:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:574    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:669    .text.HAL_DMA_Abort_IT:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:675    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:830    .text.HAL_DMA_Abort_IT:000000d0 $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:841    .text.HAL_DMA_PollForTransfer:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:847    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1271   .text.HAL_DMA_PollForTransfer:00000274 $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1280   .text.HAL_DMA_PollForTransfer:00000290 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1366   .text.HAL_DMA_PollForTransfer:00000308 $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1377   .text.HAL_DMA_IRQHandler:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1383   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1739   .text.HAL_DMA_IRQHandler:000001f0 $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1750   .text.HAL_DMA_RegisterCallback:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1756   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1807   .text.HAL_DMA_RegisterCallback:00000040 $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1811   .text.HAL_DMA_RegisterCallback:00000050 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1876   .text.HAL_DMA_UnRegisterCallback:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1882   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1932   .text.HAL_DMA_UnRegisterCallback:0000003c $d
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:1937   .text.HAL_DMA_UnRegisterCallback:00000050 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:2021   .text.HAL_DMA_GetState:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:2027   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:2066   .text.HAL_DMA_GetError:00000000 $t
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:2072   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
+C:\Users\joaoa\AppData\Local\Temp\ccdrHAfJ.s:2111   .text.DMA_SetConfig:00000000 $t
 
 UNDEFINED SYMBOLS
 HAL_GetTick
